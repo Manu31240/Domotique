@@ -33,7 +33,7 @@ mkdir liveboxShare
 mkdir /home/pi/Scripts
 mkdir /home/pi/Scripts/Backup
 ```
-## installation de Jeedom
+## Installation de Jeedom
 Jeedom : 1ere connexion - login: admin pwd: admin   
 Jeedom : changer mot de passe - Profil\Admin\Sécurité\ XXXXXX   
 Jeedom : associer  compte market - Configuration\Misesàjour\Market user: XXXXX pwd: XXXXX   
