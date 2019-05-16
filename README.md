@@ -1,9 +1,19 @@
 # Domotique
-3ème Installation Jeedom le 07/11/2018 sur Raspberry PI3 Model B+  
-_Les raisons : bcp de problème de page corrompu sur la base de donnée - obligé de demarrer en recovery_  
+Voici un 'tuto' pour realiser un système domotique sur une base Jeedom.
+Après plusieurs tentative sur Domoticz pas assez satisfaisante, je tente l'experience sur Jeedom.
+Voici le détail de ma 3ème installation fait à base de note lorsque j'ai contruit la machine et surtout de commandes, de manips que j'ai pu trouver içi ou là sur le web et qui fonctionnent.
+Ces notes me permettent aussi de garder une trace de tout ce que j'ai pu faire, les longues soirées a comprendre pourquoi ça ne marche pas :-(, de servir de backup si je dois reconstruire une machine.
+Car oui, le problème de la disponibilité pour un tel systeme est important.
+J'ai fait le choix du Raspberry pour sa facilité de reeinstallation (avec mes sauvegardes, je peux avoir un systeme opérationnel en 30min)
+3 ème reinstall Jeedom le 07/11/2018 sur Raspberry PI3 Model B+  
+_Les raisons : bcp de problème de page corrompu sur la base de donnée (sur RaspberryPi 1)- obligé de demarrer en recovery_  
 _Le homebridge ne fonctionne qu'a partir du raspberry model 2_  
-_La capacité de la SDCard est trop grosse pour permettre des temps de sauvegarde disque acceptable_  
+_La capacité de la SDCard(32Go) est trop grosse pour permettre des temps de sauvegarde disque acceptable (15Go maintenant)_  
 _La roue cranté apparait à chaque clic sur jeedom : pb de perf_
+
+[Installation de Raspbian](https://github.com/Manu31240/Domotique.git/installationRaspbian.mk)   
+
+
 
 ## Installation de Raspbian
 _image dispo : 2018-06-27-raspbian-stretch-lite_  [source Raspbian](https://www.raspberrypi.org/downloads/raspbian/)   
