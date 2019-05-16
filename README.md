@@ -6,7 +6,7 @@ _La capacité de la SDCard est trop grosse pour permettre des temps de sauvegard
 _La roue cranté apparait à chaque clic sur jeedom : pb de perf_
 
 ## Installation de Raspbian
-_image dispo : 2018-06-27-raspbian-stretch-lite_  [source Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
+_image dispo : 2018-06-27-raspbian-stretch-lite_  [source Raspbian](https://www.raspberrypi.org/downloads/raspbian/)   
 Utiliser ApplePi Baker pour enregistrer l'image sur la SD card (prévoir une carte de 16Go)   
 Fixer l'adresse sur la livebox : 192.168.1.XXX   
 Ouvrir les ports 8083(jeedom), 80(accès interne), 443(accès externe)   
