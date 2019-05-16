@@ -58,5 +58,20 @@ sudo systemctl stop mysql.service
 sudo a2enmod ssl
 ````
 modop :
-https://backports.debian.org/Instructions/
+https://backports.debian.org/Instructions/   
 https://certbot.eff.org/lets-encrypt/debianstretch-apache
+```
+sudo apt-get install python-certbot-apache -t stretch-backports
+sudo certbot --apache
+Enter email address (used for urgent renewal and security notices) (Enter 'c' to cancel): 
+(A)gree/(C)ancel: A
+(Y)es/(N)o: N
+No names were found in your configuration files. Please enter in your domain
+name(s) (comma and/or space separated)  (Enter 'c' to cancel): xxxxx.ddns.net
+
+sudo systemctl start cron.service
+sudo systemctl start apache2.service
+sudo systemctl start mysql.service
+```
+Jeedom : activer HTTPS - Configuration\Réseaux\activer Https :manu31.ddns.net Port:443
+Pour vérifier son certificat :https://www.ssllabs.com/ssltest/analyze.html?d=manu31.ddns.net
