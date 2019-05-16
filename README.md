@@ -24,8 +24,8 @@ _Finish_
 ```
 sudo apt-get update (=au moins 30min sur PI1)
 sudo apt-get upgrade (= env 5min)
-sudo passwd root même pwd que pi
-sudo nano /etc/sudoers pour mettre pi en sudo
+sudo passwd root (même pwd que pi)
+sudo nano /etc/sudoers (pour mettre pi en sudo)
 sudo nano /etc/dphys-swapfile changer la valeur CONF_SWAPSIZE=1024
 sudo halt
 mkdir airportShare
@@ -48,3 +48,15 @@ Ajout d'un serveur Samba dans Configuration/mises à jour:
 Pour se connecter sur un partage Samba:   
 `smbclient \\\\192.168.1.1\\[sharename] -U [username]`   
 Jeedom : sauvegarde locale - Sauvegardes\nombre de sauvegarde 7 taile max : 5000   
+
+## Installation de Let's Encrypt
+necessaire pour avoir un accès externe sécurisé avec certificat
+```
+sudo systemctl stop cron.service
+sudo systemctl stop apache2.service
+sudo systemctl stop mysql.service
+sudo a2enmod ssl
+````
+modop :
+https://backports.debian.org/Instructions/
+https://certbot.eff.org/lets-encrypt/debianstretch-apache
