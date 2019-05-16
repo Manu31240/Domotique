@@ -29,4 +29,22 @@ sudo nano /etc/sudoers pour mettre pi en sudo
 sudo nano /etc/dphys-swapfile changer la valeur CONF_SWAPSIZE=1024
 sudo halt
 mkdir airportShare
+mkdir liveboxShare
+mkdir /home/pi/Scripts
+mkdir /home/pi/Scripts/Backup
 ```
+## installation de Jeedom
+Jeedom : 1ere connexion - login: admin pwd: admin   
+Jeedom : changer mot de passe - Profil\Admin\Sécurité\ XXXXXX   
+Jeedom : associer  compte market - Configuration\Misesàjour\Market user: XXXXX pwd: XXXXX   
+### Jeedom : sauvegarde serveur Samba   
+Sauvegarde de la base de donnée jeedom sur serveur Samba : utiliser le DD de la Livebox   
+Ajout d'un serveur Samba dans Configuration/mises à jour:     
+[Backup]IP: 192.168.1.XXX   
+[Backup] Utilisateur: XXXXX   
+[Backup] Mot de passe: XXXXX   
+[Backup] Partage: //192.168.1.XXX/XXXXX   
+[Backup] Chemin: /JeedomBkp   
+Pour se connecter sur un partage Samba:   
+`smbclient \\\\192.168.1.1\\[sharename] -U [username]`   
+Jeedom : sauvegarde locale - Sauvegardes\nombre de sauvegarde 7 taile max : 5000   
