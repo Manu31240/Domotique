@@ -1,5 +1,5 @@
 # Domotique
-Voici un 'tuto' pour realiser un système domotique sur une base Jeedom.   
+Voici un 'repository' pour realiser un système domotique sur une base Jeedom.   
 Après plusieurs tentatives sur Domoticz pas assez satisfaisantes à mon goût, je tente l'expérience sur Jeedom.   
 Voici le détail de ma 3ème installation fait à partir de mes notes, de commandes utilisées lors de mes installations trouvées içi ou là sur le web et qui fonctionnent.   
 Ces notes me permettent aussi de garder une trace de ce que j'ai pu faire, les longues soirées à comprendre pourquoi ça ne marche pas :-(, de servir de backup si je dois reconstruire un Raspberry.    
