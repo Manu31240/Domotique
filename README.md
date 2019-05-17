@@ -4,7 +4,7 @@ Après plusieurs tentatives sur Domoticz pas assez satisfaisantes à mon goût, 
 Voici le détail de ma 3ème installation fait à partir de mes notes, de commandes utilisées lors de mes installations trouvées içi ou là sur le web et qui fonctionnent.   
 Ces notes me permettent aussi de garder une trace de ce que j'ai pu faire, les longues soirées à comprendre pourquoi ça ne marche pas :-(, de servir de backup si je dois reconstruire un Raspberry.    
 Car oui, le problème de la disponibilité pour un tel systeme est important. Imaginez un arrosage qui ne s'arrête plus, des volets qui ne s'ouvrent plus...          
-Pour mon système je me suis fixé 2 régles:   
+Pour mon système je me suis fixé 2 règles de bon sens:   
 * Ne pas mettre des commandes critiques pour les biens et les personnes   
 * Garder toujours les commandes 'nominales' des systèmes et mettre le systeme domotisé en doublon (possibilité de débrancher)     
    
