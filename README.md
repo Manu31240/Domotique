@@ -6,11 +6,11 @@ Ces notes me permettent aussi de garder une trace de ce que j'ai pu faire, les l
 Car oui, le problème de la disponibilité pour un tel systeme est important. Imaginez un arrosage qui ne s'arrête plus, des volets qui ne s'ouvrent plus...          
 Pour mon système je me suis fixé 2 règles de bon sens:   
 * Ne pas mettre des commandes critiques pour les biens et les personnes   
-* Garder toujours les commandes 'nominales' des systèmes et mettre le systeme domotisé en doublon (possibilité de débrancher)     
+* Garder toujours les commandes 'nominales' des systèmes et mettre le système domotisé en doublon (possibilité de débrancher)     
    
 J'ai fait le choix du Raspberry pour sa façilité de rééinstallation (avec mes sauvegardes, mes images de SD Card, je peux avoir un système opérationnel en 30min)      
 
-Ce repo possède un wiki qui detaille les installations.     
+Ce repo possède un wiki qui detaille les installations. [Wiki](https://github.com/Manu31240/Domotique/wiki)     
 les fichiers deposés sont utilisés lors des étapes.      
 
 
