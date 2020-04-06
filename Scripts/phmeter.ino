@@ -20,9 +20,9 @@ int pHArray[ArrayLenth];   //Store the average value of the sensor feedback
 int pHArrayIndex=0;    
 byte mac[] = { 0x90, 0xA2, 0xda, 0x00, 0x2f, 0xe4 };    // Adresse MAC Arduino
 // la clé API de Jeedom pour le 'virtuel'
-String APIKEYJEEDOM = "45y6w1GigmZvL2Y6UPlHCZt6ckspMmWI";
+String APIKEYJEEDOM = "XXXXXXXXXXXXXXXXXXXXXXXXX";
 // IP de la box Jeedom
-IPAddress IPjeedom(192,168,1,51);
+IPAddress IPjeedom(192,168,XXX,XXX);
 // Variables pour comparer l'ancienne valeur des sondes à la nouvelle
 int t_old = 0;
 int h_old = 0;
@@ -159,7 +159,7 @@ void EnvoiTrame(int ID,float ValeurAEnvoyer)
     client.print(ValeurAEnvoyer);
     client.println(F(" HTTP/1.1"));
    
-    client.println(F("Host: 192.168.1.51"));
+    client.println(F("Host: 192.168.XXX.XXX"));
     client.println(F("Connection: close"));
     client.println();
   }
