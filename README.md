@@ -1,6 +1,7 @@
 # Domotique
 Voici un 'repository' pour réaliser un système domotique sur une base Jeedom.   
-Après plusieurs tentatives sur Domoticz pas assez satisfaisantes à mon goût, je tente l'expérience sur Jeedom.   
+Après plusieurs tentatives sur Domoticz pas assez satisfaisantes à mon goût, je tente l'expérience sur Jeedom.  
+_2022_ Complétude et remise à niveau du wiki 
 _2020_ Voici le détail de ma 5ème installation (...et oui, un projet de domotique vous passez votre temps à réinstaller, optimiser, essayer, changer) orientée multi-raspberry.  
 
 Voici le détail de ma 3ème installation fait à partir de mes notes, de commandes utilisées lors de mes installations trouvées içi ou là sur le web et qui fonctionnent.   
